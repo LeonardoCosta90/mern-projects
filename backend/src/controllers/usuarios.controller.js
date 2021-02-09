@@ -19,5 +19,10 @@ module.exports = {
     }else{
         return res.status(500).json(user);
     }
-}
+  },
+  async details(req,res){
+    const {_id} = req.params;
+    const user = await Usuario.findOne({_id});
+    res.json(user);
+  },
 }
