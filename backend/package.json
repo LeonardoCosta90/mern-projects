@@ -1,0 +1,7 @@
+{
+  "name": "curso-mern",
+  "version": "1.0.0",
+  "description": "Curso basico nodejs",
+  "main": "index.js",
+  "license": "MIT"
+}
